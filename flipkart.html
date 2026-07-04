@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Flipkart Login</title>
+
+<style>
+body{
+    background:#f1f3f6;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family:Arial, sans-serif;
+}
+
+.box{
+    width:800px;
+    height:450px;
+    background:white;
+    display:flex;
+    box-shadow:0 2px 10px rgba(0,0,0,0.2);
+}
+
+.left{
+    width:35%;
+    background:#2874f0;
+    color:white;
+    padding:30px;
+}
+
+.left h1{
+    margin-bottom:20px;
+}
+
+.right{
+    width:65%;
+    padding:40px;
+    position:relative;
+}
+
+input{
+    width:100%;
+    border:none;
+    border-bottom:1px solid #2874f0;
+    padding:10px;
+    font-size:16px;
+    outline:none;
+}
+
+p{
+    margin-top:20px;
+    color:gray;
+    font-size:14px;
+}
+
+button{
+    width:100%;
+    margin-top:20px;
+    padding:12px;
+    background:#fb641b;
+    color:white;
+    border:none;
+    font-size:16px;
+    cursor:pointer;
+}
+
+a{
+    text-decoration:none;
+    color:#2874f0;
+}
+
+.signup{
+    position:absolute;
+    bottom:20px;
+    left:50%;
+    transform:translateX(-50%);
+}
+</style>
+
+</head>
+<body>
+
+<div class="box">
+
+    <div class="left">
+        <h1>Login</h1>
+        <p>Get access to your Orders,<br>
+        Wishlist and Recommendations</p>
+    </div>
+
+    <div class="right">
+        <input type="text" placeholder="Enter Email/Mobile Number">
+
+        <p>
+            By continuing, you agree to Flipkart's
+            <a href="#">Terms of Use</a> and
+            <a href="#">Privacy Policy</a>.
+        </p>
+
+        <button>Request OTP</button>
+
+        <div class="signup">
+            <a href="#">New to Flipkart? Create an account</a>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
